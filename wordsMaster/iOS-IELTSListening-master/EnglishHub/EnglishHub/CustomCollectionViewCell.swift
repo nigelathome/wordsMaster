@@ -9,6 +9,6 @@
 import UIKit
 
 class CustomCollectionViewCell: UICollectionViewCell {
-    @IBOutlet weak var lessonImageView: UIImageView!
-    @IBOutlet weak var sectionName: UIButton!
+    @IBOutlet weak var sectionName: UILabel!
+//    @IBOutlet weak var sectionName: UIButton!
 }

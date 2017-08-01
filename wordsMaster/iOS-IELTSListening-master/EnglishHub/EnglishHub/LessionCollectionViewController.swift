@@ -96,35 +96,16 @@ class LessionCollectionViewController: UIViewController, UICollectionViewDelegat
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
 //        return dataArray.count
-        return 5
+        return 6
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! CustomCollectionViewCell
-    
-        // Check from NSUserDefault to display different image for each lesson user has seen
-        if seenLessonArray != nil && seenLessonArray!.contains(indexPath.row) {
-//            cell.lessonImageView.image = UIImage(named: "lesson_\(indexPath.row+1)_tap")
-            
-//            cell.sectionName.setTitle("", for: UIControlState)
-            if (indexPath.row == 0){
-              cell.sectionName.setTitle("完形填空", for: UIControlState.normal)
-            } else {
-              cell.sectionName.setTitle("text_\(indexPath.row+1)", for: UIControlState.normal)
-            }
-
-    
+        if (indexPath.row == 0){
+            cell.sectionName.text = "完形填空"
         } else {
-            
-            // Configure the cell
-//            cell.lessonImageView.image = UIImage(named: "lesson_\(indexPath.row+1)")
-            if (indexPath.row == 0){
-                cell.sectionName.setTitle("完形填空", for: UIControlState.normal)
-            } else {
-                cell.sectionName.setTitle("text \(indexPath.row)", for: UIControlState.normal)
-            }
+            cell.sectionName.text = "text \(indexPath.row)"
         }
-        
         return cell
     }
     
