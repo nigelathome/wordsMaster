@@ -169,12 +169,12 @@
 		94A76F4D1F033F2F008BFDE5 /* MyConcernController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyConcernController.swift; sourceTree = "<group>"; };
 		94A76F511F033F44008BFDE5 /* AdvertiseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvertiseViewController.swift; sourceTree = "<group>"; };
 		94A76F521F033F44008BFDE5 /* AdvertiseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdvertiseViewController.xib; sourceTree = "<group>"; };
-		94B915F71EF21E4A00AC91B9 /* TodayNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B915F71EF21E4A00AC91B9 /* English2Assitant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = English2Assitant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B916011EF21E4A00AC91B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		94B9160B1EF21E4A00AC91B9 /* TodayNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodayNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B9160B1EF21E4A00AC91B9 /* English2AssitantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = English2AssitantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B9160F1EF21E4A00AC91B9 /* TodayNewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayNewsTests.swift; sourceTree = "<group>"; };
 		94B916111EF21E4A00AC91B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		94B916161EF21E4A00AC91B9 /* TodayNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodayNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B916161EF21E4A00AC91B9 /* English2AssitantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = English2AssitantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B9161A1EF21E4A00AC91B9 /* TodayNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayNewsUITests.swift; sourceTree = "<group>"; };
 		94B9161C1EF21E4A00AC91B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94B9162B1EF21EE200AC91B9 /* HomeSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSearchViewController.swift; sourceTree = "<group>"; };
@@ -285,9 +285,9 @@
 		94B915F81EF21E4A00AC91B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				94B915F71EF21E4A00AC91B9 /* TodayNews.app */,
-				94B9160B1EF21E4A00AC91B9 /* TodayNewsTests.xctest */,
-				94B916161EF21E4A00AC91B9 /* TodayNewsUITests.xctest */,
+				94B915F71EF21E4A00AC91B9 /* English2Assitant.app */,
+				94B9160B1EF21E4A00AC91B9 /* English2AssitantTests.xctest */,
+				94B916161EF21E4A00AC91B9 /* English2AssitantUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -570,9 +570,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		94B915F61EF21E4A00AC91B9 /* TodayNews */ = {
+		94B915F61EF21E4A00AC91B9 /* English2Assitant */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94B9161F1EF21E4A00AC91B9 /* Build configuration list for PBXNativeTarget "TodayNews" */;
+			buildConfigurationList = 94B9161F1EF21E4A00AC91B9 /* Build configuration list for PBXNativeTarget "English2Assitant" */;
 			buildPhases = (
 				30734B1882845ED2533702EF /* [CP] Check Pods Manifest.lock */,
 				94B915F31EF21E4A00AC91B9 /* Sources */,
@@ -585,14 +585,14 @@
 			);
 			dependencies = (
 			);
-			name = TodayNews;
+			name = English2Assitant;
 			productName = TodayNews;
-			productReference = 94B915F71EF21E4A00AC91B9 /* TodayNews.app */;
+			productReference = 94B915F71EF21E4A00AC91B9 /* English2Assitant.app */;
 			productType = "com.apple.product-type.application";
 		};
-		94B9160A1EF21E4A00AC91B9 /* TodayNewsTests */ = {
+		94B9160A1EF21E4A00AC91B9 /* English2AssitantTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94B916221EF21E4A00AC91B9 /* Build configuration list for PBXNativeTarget "TodayNewsTests" */;
+			buildConfigurationList = 94B916221EF21E4A00AC91B9 /* Build configuration list for PBXNativeTarget "English2AssitantTests" */;
 			buildPhases = (
 				94B916071EF21E4A00AC91B9 /* Sources */,
 				94B916081EF21E4A00AC91B9 /* Frameworks */,
@@ -603,14 +603,14 @@
 			dependencies = (
 				94B9160D1EF21E4A00AC91B9 /* PBXTargetDependency */,
 			);
-			name = TodayNewsTests;
+			name = English2AssitantTests;
 			productName = TodayNewsTests;
-			productReference = 94B9160B1EF21E4A00AC91B9 /* TodayNewsTests.xctest */;
+			productReference = 94B9160B1EF21E4A00AC91B9 /* English2AssitantTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		94B916151EF21E4A00AC91B9 /* TodayNewsUITests */ = {
+		94B916151EF21E4A00AC91B9 /* English2AssitantUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94B916251EF21E4A00AC91B9 /* Build configuration list for PBXNativeTarget "TodayNewsUITests" */;
+			buildConfigurationList = 94B916251EF21E4A00AC91B9 /* Build configuration list for PBXNativeTarget "English2AssitantUITests" */;
 			buildPhases = (
 				94B916121EF21E4A00AC91B9 /* Sources */,
 				94B916131EF21E4A00AC91B9 /* Frameworks */,
@@ -621,9 +621,9 @@
 			dependencies = (
 				94B916181EF21E4A00AC91B9 /* PBXTargetDependency */,
 			);
-			name = TodayNewsUITests;
+			name = English2AssitantUITests;
 			productName = TodayNewsUITests;
-			productReference = 94B916161EF21E4A00AC91B9 /* TodayNewsUITests.xctest */;
+			productReference = 94B916161EF21E4A00AC91B9 /* English2AssitantUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -656,7 +656,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 94B915F21EF21E4A00AC91B9 /* Build configuration list for PBXProject "TodayNews" */;
+			buildConfigurationList = 94B915F21EF21E4A00AC91B9 /* Build configuration list for PBXProject "English2Assitant" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -669,9 +669,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				94B915F61EF21E4A00AC91B9 /* TodayNews */,
-				94B9160A1EF21E4A00AC91B9 /* TodayNewsTests */,
-				94B916151EF21E4A00AC91B9 /* TodayNewsUITests */,
+				94B915F61EF21E4A00AC91B9 /* English2Assitant */,
+				94B9160A1EF21E4A00AC91B9 /* English2AssitantTests */,
+				94B916151EF21E4A00AC91B9 /* English2AssitantUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -870,12 +870,12 @@
 /* Begin PBXTargetDependency section */
 		94B9160D1EF21E4A00AC91B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 94B915F61EF21E4A00AC91B9 /* TodayNews */;
+			target = 94B915F61EF21E4A00AC91B9 /* English2Assitant */;
 			targetProxy = 94B9160C1EF21E4A00AC91B9 /* PBXContainerItemProxy */;
 		};
 		94B916181EF21E4A00AC91B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 94B915F61EF21E4A00AC91B9 /* TodayNews */;
+			target = 94B915F61EF21E4A00AC91B9 /* English2Assitant */;
 			targetProxy = 94B916171EF21E4A00AC91B9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1023,7 +1023,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hrscy.TodayNewsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodayNews.app/TodayNews";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/English2Assitant.app/English2Assitant";
 			};
 			name = Debug;
 		};
@@ -1038,7 +1038,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hrscy.TodayNewsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodayNews.app/TodayNews";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/English2Assitant.app/English2Assitant";
 			};
 			name = Release;
 		};
@@ -1073,7 +1073,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		94B915F21EF21E4A00AC91B9 /* Build configuration list for PBXProject "TodayNews" */ = {
+		94B915F21EF21E4A00AC91B9 /* Build configuration list for PBXProject "English2Assitant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94B9161D1EF21E4A00AC91B9 /* Debug */,
@@ -1082,7 +1082,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94B9161F1EF21E4A00AC91B9 /* Build configuration list for PBXNativeTarget "TodayNews" */ = {
+		94B9161F1EF21E4A00AC91B9 /* Build configuration list for PBXNativeTarget "English2Assitant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94B916201EF21E4A00AC91B9 /* Debug */,
@@ -1091,7 +1091,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94B916221EF21E4A00AC91B9 /* Build configuration list for PBXNativeTarget "TodayNewsTests" */ = {
+		94B916221EF21E4A00AC91B9 /* Build configuration list for PBXNativeTarget "English2AssitantTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94B916231EF21E4A00AC91B9 /* Debug */,
@@ -1100,7 +1100,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94B916251EF21E4A00AC91B9 /* Build configuration list for PBXNativeTarget "TodayNewsUITests" */ = {
+		94B916251EF21E4A00AC91B9 /* Build configuration list for PBXNativeTarget "English2AssitantUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94B916261EF21E4A00AC91B9 /* Debug */,
