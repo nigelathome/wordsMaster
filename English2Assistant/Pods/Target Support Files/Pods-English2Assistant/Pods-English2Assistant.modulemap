@@ -1,0 +1,6 @@
+framework module Pods_English2Assistant {
+  umbrella header "Pods-English2Assistant-umbrella.h"
+
+  export *
+  module * { export * }
+}
