@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		709C17A89DE59AD99CFBF82A /* Pods_English2Assistant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFFA85696097281E83BBAE6 /* Pods_English2Assistant.framework */; };
-		9111C80B1F4538C9005FE223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9111C8091F4538C9005FE223 /* Main.storyboard */; };
 		9111C80E1F4538C9005FE223 /* English2Assistant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9111C80C1F4538C9005FE223 /* English2Assistant.xcdatamodeld */; };
 		9111C8131F4538C9005FE223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9111C8111F4538C9005FE223 /* LaunchScreen.storyboard */; };
 		91E982AE1F45678C000983D2 /* ConcernToutiaohaoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E982411F45678C000983D2 /* ConcernToutiaohaoController.swift */; };
@@ -102,13 +101,13 @@
 		91E983061F45678C000983D2 /* WeitoutiaoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E982AB1F45678C000983D2 /* WeitoutiaoHeaderView.swift */; };
 		91E983071F45678C000983D2 /* WeitoutiaoHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91E982AC1F45678C000983D2 /* WeitoutiaoHeaderView.xib */; };
 		91E9830A1F45681A000983D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E983091F45681A000983D2 /* Assets.xcassets */; };
+		91E983311F45AF74000983D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E983301F45AF74000983D2 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3FFFA85696097281E83BBAE6 /* Pods_English2Assistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_English2Assistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6294D29313C0E2A0CE00BB /* Pods-English2Assistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-English2Assistant.release.xcconfig"; path = "Pods/Target Support Files/Pods-English2Assistant/Pods-English2Assistant.release.xcconfig"; sourceTree = "<group>"; };
 		9111C8021F4538C9005FE223 /* English2Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = English2Assistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9111C80A1F4538C9005FE223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9111C80D1F4538C9005FE223 /* English2Assistant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = English2Assistant.xcdatamodel; sourceTree = "<group>"; };
 		9111C8121F4538C9005FE223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9111C8141F4538C9005FE223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -206,6 +205,7 @@
 		91E982AB1F45678C000983D2 /* WeitoutiaoHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeitoutiaoHeaderView.swift; sourceTree = "<group>"; };
 		91E982AC1F45678C000983D2 /* WeitoutiaoHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeitoutiaoHeaderView.xib; sourceTree = "<group>"; };
 		91E983091F45681A000983D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91E983301F45AF74000983D2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		AF4DC05BA66E8A617E513437 /* Pods-English2Assistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-English2Assistant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-English2Assistant/Pods-English2Assistant.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -261,7 +261,7 @@
 			children = (
 				91E983091F45681A000983D2 /* Assets.xcassets */,
 				91E9823E1F45678C000983D2 /* Classes */,
-				9111C8091F4538C9005FE223 /* Main.storyboard */,
+				91E983301F45AF74000983D2 /* Main.storyboard */,
 				9111C8111F4538C9005FE223 /* LaunchScreen.storyboard */,
 				9111C8141F4538C9005FE223 /* Info.plist */,
 				9111C80C1F4538C9005FE223 /* English2Assistant.xcdatamodeld */,
@@ -595,9 +595,9 @@
 				91E982AF1F45678C000983D2 /* ConcernToutiaohaoController.xib in Resources */,
 				91E982E81F45678C000983D2 /* MyConcernCell.xib in Resources */,
 				91E982FC1F45678C000983D2 /* NotNetworkView.xib in Resources */,
+				91E983311F45AF74000983D2 /* Main.storyboard in Resources */,
 				91E982DB1F45678C000983D2 /* TopTabViewController.xib in Resources */,
 				91E982E61F45678C000983D2 /* MineOtherCell.xib in Resources */,
-				9111C80B1F4538C9005FE223 /* Main.storyboard in Resources */,
 				91E9830A1F45681A000983D2 /* Assets.xcassets in Resources */,
 				91E982EA1F45678C000983D2 /* NoLoginHeaderView.xib in Resources */,
 			);
@@ -740,14 +740,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9111C8091F4538C9005FE223 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9111C80A1F4538C9005FE223 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9111C8111F4538C9005FE223 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
