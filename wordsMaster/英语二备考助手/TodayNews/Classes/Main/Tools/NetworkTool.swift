@@ -56,7 +56,7 @@ class NetworkTool {
         let timeInterval:TimeInterval = date.timeIntervalSince1970
         let salt:String = NSString(format: "%f" , timeInterval) as String
         
-        let word:String = "good"
+        let word:String = "good news comes"
         let code:String = "veaOCHiBKKTkOFzRnZ5TckzsHzrxE4Ym"
         let rawString:String = appKey + word + salt + code
         let sign:NSString = (rawString as NSString).getMd5() as NSString
